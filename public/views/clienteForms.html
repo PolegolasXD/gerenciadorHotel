@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro de Cliente</title>
+  <link rel="stylesheet" type="text/css" href="../styles/clienteForms.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Cliente</h1>
+    <form id="cadastroForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required><br>
+
+      <label for="cpf">CPF:</label>
+      <input type="text" id="cpf" required><br>
+
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" required><br>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" required><br>
+
+      <label for="dataNascimento">Data de Nascimento:</label>
+      <input type="date" id="dataNascimento" required><br>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="../scripts/clienteForms.js"></script>
+</body>
+</html>
