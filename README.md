@@ -7,3 +7,5 @@ npm install http
 npm install socket.io
 npm install mysql
 npm install path
+
+node server.js
